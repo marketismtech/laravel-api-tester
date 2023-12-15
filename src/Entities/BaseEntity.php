@@ -82,7 +82,14 @@ abstract class BaseEntity implements Arrayable, Jsonable, ArrayAccess, JsonSeria
      */
     protected function filterFillable(array $data)
     {
-        return array_only($data, $this->fillable);
+//        return array_only($data, $this->fillable); this is deprecated
+        $filtered = array_filter(
+            $data,
+            fn ($key) => in_array($key, $this->fillable),
+            ARRAY_FILTER_USE_KEY
+        );
+        return $filtered;
+
     }
 
     /**
