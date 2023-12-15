@@ -7,8 +7,7 @@ use Marketismtech\ApiTester\Contracts\RequestRepositoryInterface;
 use Marketismtech\ApiTester\Contracts\StorageInterface;
 use Marketismtech\ApiTester\Entities\RequestEntity;
 use Illuminate\Filesystem\Filesystem;
-
-
+use Illuminate\Support\Str;
 /**
  * Class DefaultRequestRepository
  *
@@ -82,7 +81,7 @@ class RequestRepository implements RequestRepositoryInterface
      */
     public function persist(RequestEntity $request)
     {
-        $request->setId(str_random());
+        $request->setId(Str::random(40));
         $this->requests->insert($request);
     }
 
