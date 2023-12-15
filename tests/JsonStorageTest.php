@@ -1,7 +1,7 @@
 <?php
-use Asvae\ApiTester\Collections\RequestCollection;
-use Asvae\ApiTester\Entities\RequestEntity;
-use Asvae\ApiTester\Storages\JsonStorage;
+use Marketismtech\ApiTester\Collections\RequestCollection;
+use Marketismtech\ApiTester\Entities\RequestEntity;
+use Marketismtech\ApiTester\Storages\JsonStorage;
 use Illuminate\Filesystem\Filesystem;
 
 /**
@@ -12,7 +12,7 @@ use Illuminate\Filesystem\Filesystem;
 class JsonStorageTest extends TestCase
 {
     /**
-     * @type \Asvae\ApiTester\Storages\JsonStorage
+     * @type \Marketismtech\ApiTester\Storages\JsonStorage
      */
     protected $storage;
 

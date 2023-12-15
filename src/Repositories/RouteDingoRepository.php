@@ -1,10 +1,10 @@
 <?php
 
-namespace Asvae\ApiTester\Repositories;
+namespace Marketismtech\ApiTester\Repositories;
 
-use Asvae\ApiTester\Collections\RouteCollection;
-use Asvae\ApiTester\Contracts\RouteRepositoryInterface;
-use Asvae\ApiTester\Entities\RouteInfo;
+use Marketismtech\ApiTester\Collections\RouteCollection;
+use Marketismtech\ApiTester\Contracts\RouteRepositoryInterface;
+use Marketismtech\ApiTester\Entities\RouteInfo;
 use Dingo\Api\Routing\Router;
 use Illuminate\Contracts\Config\Repository as Config;
 use Illuminate\Contracts\Foundation\Application;
@@ -12,12 +12,12 @@ use Illuminate\Contracts\Foundation\Application;
 /**
  * Class RouteDingoRepository
  *
- * @package \Asvae\ApiTester\Repositories
+ * @package \Marketismtech\ApiTester\Repositories
  */
 class RouteDingoRepository implements RouteRepositoryInterface
 {
     /**
-     * @type \Asvae\ApiTester\Collections\RouteCollection
+     * @type \Marketismtech\ApiTester\Collections\RouteCollection
      */
     protected $routes;
 
@@ -49,7 +49,7 @@ class RouteDingoRepository implements RouteRepositoryInterface
      * @param array $match
      * @param array $except
      *
-     * @return \Asvae\ApiTester\Collections\RouteCollection
+     * @return \Marketismtech\ApiTester\Collections\RouteCollection
      */
     public function get($match = [], $except = [])
     {

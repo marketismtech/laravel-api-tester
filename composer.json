@@ -1,5 +1,5 @@
 {
-    "name": "asvae/laravel-api-tester",
+    "name": "marketismtech/laravel-api-tester",
     "description": "Api tester for Laravel Framework",
     "keywords": ["laravel", "api", "debug"],
     "license": "MIT",
@@ -28,13 +28,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Asvae\\ApiTester\\": "src/"
+            "Marketismtech\\ApiTester\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Asvae\\ApiTester\\ServiceProvider"
+                "Marketismtech\\ApiTester\\ServiceProvider"
             ]
         }
     }

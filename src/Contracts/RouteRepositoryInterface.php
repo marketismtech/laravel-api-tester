@@ -1,6 +1,6 @@
 <?php
 
-namespace Asvae\ApiTester\Contracts;
+namespace Marketismtech\ApiTester\Contracts;
 
 interface RouteRepositoryInterface
 {

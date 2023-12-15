@@ -1,14 +1,14 @@
 <?php
 
-namespace Asvae\ApiTester\Http\Controllers;
+namespace Marketismtech\ApiTester\Http\Controllers;
 
-use Asvae\ApiTester\Contracts\RouteRepositoryInterface;
+use Marketismtech\ApiTester\Contracts\RouteRepositoryInterface;
 use Illuminate\Routing\Controller;
 
 /**
  * Class RoutesController
  *
- * @package \Asvae\ApiTester\Http\Controllers
+ * @package \Marketismtech\ApiTester\Http\Controllers
  */
 class RouteController extends Controller
 {

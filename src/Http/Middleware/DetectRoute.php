@@ -1,8 +1,8 @@
 <?php
 
-namespace Asvae\ApiTester\Http\Middleware;
+namespace Marketismtech\ApiTester\Http\Middleware;
 
-use Asvae\ApiTester\Entities\RouteInfo;
+use Marketismtech\ApiTester\Entities\RouteInfo;
 use Closure;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Http\Request;
@@ -11,7 +11,7 @@ use Illuminate\Routing\Events\RouteMatched;
 /**
  * Class DetectRouteMiddleware
  *
- * @package \Asvae\ApiTester\Http\Middleware
+ * @package \Marketismtech\ApiTester\Http\Middleware
  */
 class DetectRoute
 {

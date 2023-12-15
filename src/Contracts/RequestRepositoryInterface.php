@@ -1,20 +1,20 @@
 <?php
 
-namespace Asvae\ApiTester\Contracts;
+namespace Marketismtech\ApiTester\Contracts;
 
-use Asvae\ApiTester\Entities\RequestEntity;
+use Marketismtech\ApiTester\Entities\RequestEntity;
 
 interface RequestRepositoryInterface
 {
     /**
      * @param $id
      *
-     * @return \Asvae\ApiTester\Entities\RequestEntity
+     * @return \Marketismtech\ApiTester\Entities\RequestEntity
      */
     public function find($id);
 
     /**
-     * @param \Asvae\ApiTester\Entities\RequestEntity $request
+     * @param \Marketismtech\ApiTester\Entities\RequestEntity $request
      *
      * @return void
      */
@@ -28,7 +28,7 @@ interface RequestRepositoryInterface
     public function exists($id);
 
     /**
-     * @return \Asvae\ApiTester\Collections\RequestCollection|\Asvae\ApiTester\Entities\RequestEntity[]
+     * @return \Marketismtech\ApiTester\Collections\RequestCollection|\Marketismtech\ApiTester\Entities\RequestEntity[]
      */
     public function all();
 

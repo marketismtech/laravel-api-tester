@@ -6,7 +6,7 @@
  * Time: 21:20
  */
 
-namespace Asvae\ApiTester\View\Composers;
+namespace Marketismtech\ApiTester\View\Composers;
 
 
 use Illuminate\Contracts\Container\Container;

@@ -1,9 +1,9 @@
 <?php
 
-use Asvae\ApiTester\Collections\RouteCollection;
+use Marketismtech\ApiTester\Collections\RouteCollection;
 
 /**
- * @covers Asvae\ApiTester\Collections\RouteCollection
+ * @covers Marketismtech\ApiTester\Collections\RouteCollection
  */
 class RouteCollectionTest extends TestCase
 {

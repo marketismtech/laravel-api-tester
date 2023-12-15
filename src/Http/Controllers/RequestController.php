@@ -1,30 +1,30 @@
 <?php
 
-namespace Asvae\ApiTester\Http\Controllers;
+namespace Marketismtech\ApiTester\Http\Controllers;
 
-use Asvae\ApiTester\Contracts\RequestRepositoryInterface;
-use Asvae\ApiTester\Entities\RequestEntity;
-use Asvae\ApiTester\Http\Requests\StoreRequest;
-use Asvae\ApiTester\Http\Requests\UpdateRequest;
+use Marketismtech\ApiTester\Contracts\RequestRepositoryInterface;
+use Marketismtech\ApiTester\Entities\RequestEntity;
+use Marketismtech\ApiTester\Http\Requests\StoreRequest;
+use Marketismtech\ApiTester\Http\Requests\UpdateRequest;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
 /**
  * Class RequestController
  *
- * @package \Asvae\ApiTester\Http\Controllers
+ * @package \Marketismtech\ApiTester\Http\Controllers
  */
 class RequestController extends Controller
 {
     /**
-     * @type \Asvae\ApiTester\Contracts\RequestRepositoryInterface
+     * @type \Marketismtech\ApiTester\Contracts\RequestRepositoryInterface
      */
     protected $repository;
 
     /**
      * RequestController constructor.
      *
-     * @param \Asvae\ApiTester\Contracts\RequestRepositoryInterface $repository
+     * @param \Marketismtech\ApiTester\Contracts\RequestRepositoryInterface $repository
      */
     public function __construct(RequestRepositoryInterface $repository)
     {
@@ -43,7 +43,7 @@ class RequestController extends Controller
 
     /**
      *
-     * @param \Asvae\ApiTester\Http\Requests\StoreRequest $storeRequest
+     * @param \Marketismtech\ApiTester\Http\Requests\StoreRequest $storeRequest
      *
      * @return \Illuminate\Http\Response
      */
@@ -79,7 +79,7 @@ class RequestController extends Controller
     }
 
     /**
-     * @param \Asvae\ApiTester\Http\Requests\UpdateRequest $request
+     * @param \Marketismtech\ApiTester\Http\Requests\UpdateRequest $request
      * @param  string                                      $request
      *
      * @return \Illuminate\Http\Response

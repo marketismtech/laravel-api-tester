@@ -1,24 +1,24 @@
 <?php
 
-namespace Asvae\ApiTester\Repositories;
+namespace Marketismtech\ApiTester\Repositories;
 
-use Asvae\ApiTester\Collections\RouteCollection;
-use Asvae\ApiTester\Contracts\RouteRepositoryInterface;
+use Marketismtech\ApiTester\Collections\RouteCollection;
+use Marketismtech\ApiTester\Contracts\RouteRepositoryInterface;
 
 /**
  * Class RouteRepository
  *
- * @package \Asvae\ApiTester\Repositories
+ * @package \Marketismtech\ApiTester\Repositories
  */
 class RouteRepository implements RouteRepositoryInterface
 {
     /**
-     * @type \Asvae\ApiTester\Contracts\RouteRepositoryInterface[]
+     * @type \Marketismtech\ApiTester\Contracts\RouteRepositoryInterface[]
      */
     protected $repositories;
 
     /**
-     * @type \Asvae\ApiTester\Collections\RouteCollection
+     * @type \Marketismtech\ApiTester\Collections\RouteCollection
      */
     protected $routes;
 

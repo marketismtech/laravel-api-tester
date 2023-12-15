@@ -1,6 +1,6 @@
 <?php
 
-namespace Asvae\Exceptions;
+namespace Marketismtech\Exceptions;
 
 class FireBaseException extends ApiTesterException
 {

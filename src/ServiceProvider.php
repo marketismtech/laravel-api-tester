@@ -1,11 +1,11 @@
 <?php
 
-namespace Asvae\ApiTester;
+namespace Marketismtech\ApiTester;
 
-use Asvae\ApiTester\Providers\RepositoryServiceProvider;
-use Asvae\ApiTester\Providers\RouteServiceProvider;
-use Asvae\ApiTester\Providers\StorageServiceProvide;
-use Asvae\ApiTester\Providers\ViewServiceProvider;
+use Marketismtech\ApiTester\Providers\RepositoryServiceProvider;
+use Marketismtech\ApiTester\Providers\RouteServiceProvider;
+use Marketismtech\ApiTester\Providers\StorageServiceProvide;
+use Marketismtech\ApiTester\Providers\ViewServiceProvider;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

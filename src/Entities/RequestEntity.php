@@ -1,11 +1,11 @@
 <?php
 
-namespace Asvae\ApiTester\Entities;
+namespace Marketismtech\ApiTester\Entities;
 
 /**
  * Class Request
  *
- * @package \Asvae\ApiTester\Entities
+ * @package \Marketismtech\ApiTester\Entities
  */
 class RequestEntity extends BaseEntity
 {

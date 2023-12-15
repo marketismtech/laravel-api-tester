@@ -1,10 +1,10 @@
 <?php
 
-namespace Asvae\ApiTester\Providers;
+namespace Marketismtech\ApiTester\Providers;
 
-use Asvae\ApiTester\Http\Middleware\DebugState;
-use Asvae\ApiTester\Http\Middleware\DetectRoute;
-use Asvae\ApiTester\Http\Middleware\PreventRedirect;
+use Marketismtech\ApiTester\Http\Middleware\DebugState;
+use Marketismtech\ApiTester\Http\Middleware\DetectRoute;
+use Marketismtech\ApiTester\Http\Middleware\PreventRedirect;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
@@ -65,7 +65,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function getNamespace()
     {
-        return 'Asvae\ApiTester\Http\Controllers';
+        return 'Marketismtech\ApiTester\Http\Controllers';
     }
 
     /**

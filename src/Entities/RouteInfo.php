@@ -1,6 +1,6 @@
 <?php
 
-namespace Asvae\ApiTester\Entities;
+namespace Marketismtech\ApiTester\Entities;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Foundation\Http\FormRequest;

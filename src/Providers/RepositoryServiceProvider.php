@@ -1,12 +1,12 @@
 <?php
 
-namespace Asvae\ApiTester\Providers;
+namespace Marketismtech\ApiTester\Providers;
 
 
-use Asvae\ApiTester\Collections\RouteCollection;
-use Asvae\ApiTester\Contracts\RequestRepositoryInterface;
-use Asvae\ApiTester\Contracts\RouteRepositoryInterface;
-use Asvae\ApiTester\Repositories\RouteRepository;
+use Marketismtech\ApiTester\Collections\RouteCollection;
+use Marketismtech\ApiTester\Contracts\RequestRepositoryInterface;
+use Marketismtech\ApiTester\Contracts\RouteRepositoryInterface;
+use Marketismtech\ApiTester\Repositories\RouteRepository;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\ServiceProvider;
 

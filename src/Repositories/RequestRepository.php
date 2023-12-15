@@ -1,35 +1,35 @@
 <?php
 
-namespace Asvae\ApiTester\Repositories;
+namespace Marketismtech\ApiTester\Repositories;
 
-use Asvae\ApiTester\Collections\RequestCollection;
-use Asvae\ApiTester\Contracts\RequestRepositoryInterface;
-use Asvae\ApiTester\Contracts\StorageInterface;
-use Asvae\ApiTester\Entities\RequestEntity;
+use Marketismtech\ApiTester\Collections\RequestCollection;
+use Marketismtech\ApiTester\Contracts\RequestRepositoryInterface;
+use Marketismtech\ApiTester\Contracts\StorageInterface;
+use Marketismtech\ApiTester\Entities\RequestEntity;
 use Illuminate\Filesystem\Filesystem;
 
 
 /**
  * Class DefaultRequestRepository
  *
- * @package \Asvae\ApiTester
+ * @package \Marketismtech\ApiTester
  */
 class RequestRepository implements RequestRepositoryInterface
 {
     /**
-     * @type \Asvae\ApiTester\Collections\RequestCollection
+     * @type \Marketismtech\ApiTester\Collections\RequestCollection
      */
     protected $requests;
 
     /**
-     * @type \Asvae\ApiTester\Contracts\StorageInterface
+     * @type \Marketismtech\ApiTester\Contracts\StorageInterface
      */
     protected $storage;
 
     /**
      * RequestRepository constructor.
      *
-     * @param \Asvae\ApiTester\Contracts\StorageInterface $storage
+     * @param \Marketismtech\ApiTester\Contracts\StorageInterface $storage
      * @internal param RequestCollection $requests
      */
     public function __construct(StorageInterface $storage)
@@ -76,7 +76,7 @@ class RequestRepository implements RequestRepositoryInterface
     }
 
     /**
-     * @param \Asvae\ApiTester\Entities\RequestEntity $request
+     * @param \Marketismtech\ApiTester\Entities\RequestEntity $request
      *
      * @return mixed
      */

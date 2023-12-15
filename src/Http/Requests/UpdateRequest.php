@@ -1,13 +1,13 @@
 <?php
 
-namespace Asvae\ApiTester\Http\Requests;
+namespace Marketismtech\ApiTester\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
 /**
  * Class UpdateRequest
  *
- * @package \Asvae\ApiTester\Http\Requests
+ * @package \Marketismtech\ApiTester\Http\Requests
  */
 class UpdateRequest extends FormRequest
 {

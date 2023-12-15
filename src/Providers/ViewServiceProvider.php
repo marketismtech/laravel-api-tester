@@ -1,9 +1,9 @@
 <?php
 
-namespace Asvae\ApiTester\Providers;
+namespace Marketismtech\ApiTester\Providers;
 
 
-use Asvae\ApiTester\View\Composers\ApiTesterComposer;
+use Marketismtech\ApiTester\View\Composers\ApiTesterComposer;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Support\ServiceProvider;
 

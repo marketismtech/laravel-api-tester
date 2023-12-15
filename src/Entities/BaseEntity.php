@@ -1,6 +1,6 @@
 <?php
 
-namespace Asvae\ApiTester\Entities;
+namespace Marketismtech\ApiTester\Entities;
 
 use ArrayAccess;
 use Illuminate\Contracts\Support\Arrayable;
@@ -11,7 +11,7 @@ use JsonSerializable;
 /**
  * Class BaseEntity.
  *
- * @package Asvae\ApiTester\Entities
+ * @package Marketismtech\ApiTester\Entities
  */
 abstract class BaseEntity implements Arrayable, Jsonable, ArrayAccess, JsonSerializable
 {

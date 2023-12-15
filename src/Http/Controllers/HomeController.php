@@ -1,6 +1,6 @@
 <?php
 
-namespace Asvae\ApiTester\Http\Controllers;
+namespace Marketismtech\ApiTester\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 

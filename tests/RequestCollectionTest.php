@@ -1,6 +1,6 @@
 <?php
-use Asvae\ApiTester\Collections\RequestCollection;
-use Asvae\ApiTester\Entities\RequestEntity;
+use Marketismtech\ApiTester\Collections\RequestCollection;
+use Marketismtech\ApiTester\Entities\RequestEntity;
 use Mockery as m;
 
 class RequestCollectionTest extends TestCase
@@ -32,7 +32,7 @@ class RequestCollectionTest extends TestCase
     }
 
     /**
-     * @covers Asvae\ApiTester\Collections\RequestCollection::load()
+     * @covers Marketismtech\ApiTester\Collections\RequestCollection::load()
      */
     public function testLoad()
     {
@@ -44,7 +44,7 @@ class RequestCollectionTest extends TestCase
     }
 
     /**
-     * @covers Asvae\ApiTester\Collections\RequestCollection::find()
+     * @covers Marketismtech\ApiTester\Collections\RequestCollection::find()
      */
     public function testFind()
     {
@@ -57,7 +57,7 @@ class RequestCollectionTest extends TestCase
     }
 
     /**
-     * @covers Asvae\ApiTester\Collections\RequestCollection::insert()
+     * @covers Marketismtech\ApiTester\Collections\RequestCollection::insert()
      */
     public function testInsert()
     {

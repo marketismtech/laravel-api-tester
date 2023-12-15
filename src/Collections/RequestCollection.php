@@ -1,14 +1,14 @@
 <?php
 
-namespace Asvae\ApiTester\Collections;
+namespace Marketismtech\ApiTester\Collections;
 
-use Asvae\ApiTester\Entities\RequestEntity;
+use Marketismtech\ApiTester\Entities\RequestEntity;
 use Illuminate\Support\Collection;
 
 /**
  * Class RequestCollection
  *
- * @package \Asvae\ApiTester
+ * @package \Marketismtech\ApiTester
  */
 class RequestCollection extends Collection
 {
@@ -18,7 +18,7 @@ class RequestCollection extends Collection
      *
      * @param string $id
      *
-     * @return \Asvae\ApiTester\Entities\RequestEntity|null
+     * @return \Marketismtech\ApiTester\Entities\RequestEntity|null
      */
     public function find($id)
     {
@@ -28,9 +28,9 @@ class RequestCollection extends Collection
     /**
      * Put new RequestEntity to collection.
      *
-     * @param \Asvae\ApiTester\Entities\RequestEntity $request
+     * @param \Marketismtech\ApiTester\Entities\RequestEntity $request
      *
-     * @return \Asvae\ApiTester\Entities\RequestEntity
+     * @return \Marketismtech\ApiTester\Entities\RequestEntity
      */
     public function insert(RequestEntity $request)
     {

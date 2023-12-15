@@ -6,13 +6,13 @@
  * Time: 18:54
  */
 
-namespace Asvae\ApiTester\Providers;
+namespace Marketismtech\ApiTester\Providers;
 
 
-use Asvae\ApiTester\Collections\RequestCollection;
-use Asvae\ApiTester\Contracts\StorageInterface;
-use Asvae\ApiTester\Storages\FireBaseStorage;
-use Asvae\ApiTester\Storages\JsonStorage;
+use Marketismtech\ApiTester\Collections\RequestCollection;
+use Marketismtech\ApiTester\Contracts\StorageInterface;
+use Marketismtech\ApiTester\Storages\FireBaseStorage;
+use Marketismtech\ApiTester\Storages\JsonStorage;
 use Firebase\Token\TokenGenerator;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Filesystem\Filesystem;

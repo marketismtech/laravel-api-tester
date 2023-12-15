@@ -1,6 +1,6 @@
 <?php
 
-namespace Asvae\ApiTester\Http\Middleware;
+namespace Marketismtech\ApiTester\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

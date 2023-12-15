@@ -123,8 +123,8 @@ return [
     */
 
     'route_repositories' => [
-        Asvae\ApiTester\Repositories\RouteLaravelRepository::class,
-        //Asvae\ApiTester\Repositories\RouteDingoRepository::class,
+        Marketismtech\ApiTester\Repositories\RouteLaravelRepository::class,
+        //Marketismtech\ApiTester\Repositories\RouteDingoRepository::class,
     ],
 
     /*
@@ -135,13 +135,13 @@ return [
     |
     */
 
-    'request_repository' => Asvae\ApiTester\Repositories\RequestRepository::class,
+    'request_repository' => Marketismtech\ApiTester\Repositories\RequestRepository::class,
 
     /*
     |--------------------------------------------------------------------------
-    | Asvae\ApiTester\Repositories\RequestRepository configuration
+    | Marketismtech\ApiTester\Repositories\RequestRepository configuration
     |--------------------------------------------------------------------------
-    | This config matters only when using Asvae\ApiTester\Repositories\RequestRepository
+    | This config matters only when using Marketismtech\ApiTester\Repositories\RequestRepository
     | or similar implementations.
     |
     */
@@ -150,13 +150,13 @@ return [
 
     'storage_drivers' => [
         'file' => [
-            'class' => Asvae\ApiTester\Storages\JsonStorage::class,
+            'class' => Marketismtech\ApiTester\Storages\JsonStorage::class,
             'options' => [
                 'path' => 'storage/api-tester/requests.db'
             ]
         ],
         'firebase' => [
-            'class' => Asvae\ApiTester\Storages\FireBaseStorage::class,
+            'class' => Marketismtech\ApiTester\Storages\FireBaseStorage::class,
             'options' => [
                 'base' => env('API_TESTER_FIREBASE_ADDRESS', 'https://example.firebaseio.com/api-tester/'),
             ],

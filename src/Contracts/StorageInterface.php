@@ -1,13 +1,13 @@
 <?php
 
-namespace Asvae\ApiTester\Contracts;
+namespace Marketismtech\ApiTester\Contracts;
 
-use Asvae\ApiTester\Collections\RequestCollection;
+use Marketismtech\ApiTester\Collections\RequestCollection;
 
 /**
  * Class StorageInterface
  *
- * @package \Asvae\ApiTester\Contracts
+ * @package \Marketismtech\ApiTester\Contracts
  */
 interface StorageInterface
 {

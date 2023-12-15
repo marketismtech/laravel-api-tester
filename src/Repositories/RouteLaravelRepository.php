@@ -1,16 +1,16 @@
 <?php
 
-namespace Asvae\ApiTester\Repositories;
+namespace Marketismtech\ApiTester\Repositories;
 
-use Asvae\ApiTester\Collections\RouteCollection;
-use Asvae\ApiTester\Contracts\RouteRepositoryInterface;
-use Asvae\ApiTester\Entities\RouteInfo;
+use Marketismtech\ApiTester\Collections\RouteCollection;
+use Marketismtech\ApiTester\Contracts\RouteRepositoryInterface;
+use Marketismtech\ApiTester\Entities\RouteInfo;
 use Illuminate\Routing\Router;
 
 class RouteLaravelRepository implements RouteRepositoryInterface
 {
     /**
-     * @type \Asvae\ApiTester\Collections\RouteCollection
+     * @type \Marketismtech\ApiTester\Collections\RouteCollection
      */
     protected $routes;
 
@@ -28,7 +28,7 @@ class RouteLaravelRepository implements RouteRepositoryInterface
      * @param array $match
      * @param array $except
      *
-     * @return \Asvae\ApiTester\Collections\RouteCollection
+     * @return \Marketismtech\ApiTester\Collections\RouteCollection
      */
     public function get($match = [], $except = [])
     {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Asvae\ApiTester\Storages;
+namespace Marketismtech\ApiTester\Storages;
 
-use Asvae\ApiTester\Collections\RequestCollection;
-use Asvae\ApiTester\Contracts\StorageInterface;
+use Marketismtech\ApiTester\Collections\RequestCollection;
+use Marketismtech\ApiTester\Contracts\StorageInterface;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 use Illuminate\Filesystem\Filesystem;
@@ -11,7 +11,7 @@ use Illuminate\Filesystem\Filesystem;
 /**
  * Class JsonStorage
  *
- * @package \Asvae\ApiTester
+ * @package \Marketismtech\ApiTester
  */
 class JsonStorage implements StorageInterface
 {

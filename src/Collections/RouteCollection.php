@@ -1,13 +1,13 @@
 <?php
 
-namespace Asvae\ApiTester\Collections;
+namespace Marketismtech\ApiTester\Collections;
 
 use Illuminate\Support\Collection;
 
 /**
  * Class RouteCollection
  *
- * @package \Asvae\ApiTester
+ * @package \Marketismtech\ApiTester
  */
 class RouteCollection extends Collection
 {
