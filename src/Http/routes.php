@@ -3,7 +3,7 @@
 $router = app('router');
 
 // Api-tester base route. This is entry point for frontend-SPA.
-$router->get('/', [
+$router::middleware('auth:web')->get('/', [
     'as'   => 'home',
     'uses' => 'HomeController@index',
 ]);
